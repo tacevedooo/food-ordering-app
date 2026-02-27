@@ -54,7 +54,7 @@ const SearchBar = ({
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className={`flex items-center gap-3 justify-between flex-row border-2 rounded-full p-3 ${
+        className={`flex items-center gap-3 justify-between flex-row border-2 rounded-full p-3 max-w-4xl mx-auto w-full ${
           form.formState.errors.searchQuery
             ? "border-red-500"
             : ""
@@ -64,7 +64,7 @@ const SearchBar = ({
         <Search
           strokeWidth={2.5}
           size={30}
-          className="ml-1 text-orange-500 hidden md:block"
+          className="ml-1 text-violet-500 hidden md:block"
         />
 
         <FormField
@@ -100,7 +100,7 @@ const SearchBar = ({
 
         <Button
           type="submit"
-          className="rounded-full bg-orange-500"
+          className="rounded-full bg-violet-500"
         >
           Search
         </Button>
