@@ -16,7 +16,7 @@ const UserNameMenu = () => {
             <DropdownMenuContent>
                 <DropdownMenuItem>
                     <Link to="/user-profile" className="font-bold hover:text-violet-500">
-                        User Profile
+                        Profile
                     </Link>
                 </DropdownMenuItem>
                 <Separator/>

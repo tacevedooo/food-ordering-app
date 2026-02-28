@@ -26,11 +26,13 @@ const Auth0ProviderWithNavigate = ({ children }: Props) => {
       domain={domain}
       clientId={clientId}
       authorizationParams={{
-        redirect_uri: redirectUri,
-        audience,
+      redirect_uri: redirectUri,
+      audience,
       }}
       onRedirectCallback={onRedirectCallback}
-    >
+      cacheLocation="localstorage" 
+      useRefreshTokens={true}         
+>
       {children}
     </Auth0Provider>
   );

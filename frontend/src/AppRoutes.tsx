@@ -62,6 +62,10 @@ const AppRoutes = () => {
             </Layout>
           }
         />
+        <Route
+          path="/restaurants"
+          
+        />   
       </Route>
 
       <Route path="*" element={<Navigate to="/" />} />
