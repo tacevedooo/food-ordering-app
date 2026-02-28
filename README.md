@@ -6,9 +6,9 @@ This platform allows restaurant owners to manage their restaurants, menus, and i
 
 ## Tech Stack
 #### Frontend
-TechnologyPurposeReact 18UI libraryTypeScriptType safetyViteBuild tool & dev serverReact Hook FormForm managementReact QueryServer state managementTailwind CSSStyling
+React 18UI libraryTypeScriptType safetyViteBuild tool & dev serverReact Hook FormForm managementReact QueryServer state managementTailwind CSSStyling
 #### Backend
-TechnologyPurposeNode.js + ExpressREST API serverTypeScriptType safetyMongoDB + MongooseDatabase & ODMCloudinaryImage storageStripePayment processingJWT (Auth0)AuthenticationMulterFile upload handling
+Node.js + ExpressREST API serverTypeScriptType safetyMongoDB + MongooseDatabase & ODMCloudinaryImage storageStripePayment processingJWT (Auth0)AuthenticationMulterFile upload handling
 
 ## Features
 
